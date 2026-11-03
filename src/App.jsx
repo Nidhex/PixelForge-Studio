@@ -1106,6 +1106,20 @@ function Footer() {
           </div>
         </div>
 
+        {/* Very small attribution at the very end */}
+        <div className="mt-8 pt-5 border-t border-[#262626] text-center text-[10px] font-mono text-[#F2F0E8]/40">
+          Website designed by{' '}
+          <a
+            href="https://github.com/Nidhex"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#F2F0E8]/75 hover:text-[#DCEB78] underline underline-offset-2 transition-colors font-semibold inline-flex items-center gap-0.5"
+          >
+            <span>Nidex</span>
+            <ArrowUpRight className="w-2.5 h-2.5" />
+          </a>
+        </div>
+
       </div>
     </footer>
   );

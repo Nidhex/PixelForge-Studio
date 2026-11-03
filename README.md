@@ -150,6 +150,6 @@ Have a project idea, need a custom website, or want to discuss pricing? Reach ou
 <div align="center">
 
 © 2026 **PixelForge Studio**. All rights reserved.  
-*Designed with care. Built for business.*
+*Website designed by [Nidex](https://github.com/Nidhex). Built for business.*
 
 </div>
