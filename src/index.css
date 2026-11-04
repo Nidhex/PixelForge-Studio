@@ -21,6 +21,34 @@
   }
 }
 
+@layer utilities {
+  .font-serif-editorial {
+    font-family: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+    font-style: italic;
+  }
+}
+
+/* Seamless infinite marquee ticker */
+@keyframes studio-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-studio-marquee {
+  display: flex;
+  width: max-content;
+  animation: studio-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.animate-studio-marquee:hover {
+  animation-play-state: paused;
+}
+
 /* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
